@@ -117,6 +117,8 @@ const HTMLFlipBookForward = React.forwardRef(
             // eslint-disable-next-line react-hooks/exhaustive-deps
         }, [pages]);
 
+        console.log("props.style => ", props.style)
+
         return (
             <div ref={htmlElementRef} className={props.className} style={props.style}>
                 {pages}
