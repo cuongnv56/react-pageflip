@@ -1,12 +1,12 @@
 {
-    "name": "react-pageflip",
+    "name": "@cuongnv56/react-pageflip",
     "version": "2.0.3",
     "author": "oleg.litovski9@gmail.com",
     "license": "MIT",
     "description": "Simple React.js wrapper for StPageFlip library, for creating realistic and beautiful page turning effect",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Nodlik/react-pageflip.git"
+        "url": "https://github.com/cuongnv56/react-pageflip"
     },
     "homepage": "https://nodlik.github.io/react-pageflip/",
     "main": "build/index.js",
@@ -58,5 +58,8 @@
         "fold",
         "frontend",
         "javascript"
-    ]
+    ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/@cuongnv56"
+    }
 }
