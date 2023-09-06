@@ -7,7 +7,7 @@ import React, {
     useState,
 } from 'react';
 
-import { PageFlip } from 'page-flip';
+import { PageFlip } from "@cuongnv56/page-flip";
 import { IFlipSetting, IEventProps } from './settings';
 
 interface IProps extends IFlipSetting, IEventProps {
@@ -116,8 +116,6 @@ const HTMLFlipBookForward = React.forwardRef(
             }
             // eslint-disable-next-line react-hooks/exhaustive-deps
         }, [pages]);
-
-        console.log("props.style => ", props.style)
 
         return (
             <div ref={htmlElementRef} className={props.className} style={props.style}>
