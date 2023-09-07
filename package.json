@@ -46,7 +46,7 @@
         "typescript-plugin-css-modules": "^2.7.0"
     },
     "dependencies": {
-        "@cuongnv56/page-flip": "latest"
+        "@cuongnv56/page-flip": "^1.0.0"
     },
     "keywords": [
         "react",
